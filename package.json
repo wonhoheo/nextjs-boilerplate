@@ -14,6 +14,7 @@
     "postpack": "pinst --enable"
   },
   "dependencies": {
+    "@vanilla-extract/css": "^1.13.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
