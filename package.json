@@ -8,7 +8,10 @@
     "lint:next": "next lint",
     "lint:next:fix": "next lint --fix",
     "lint:prettier": "prettier --check .",
-    "lint:prettier:fix": "prettier --write ."
+    "lint:prettier:fix": "prettier --write .",
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
   },
   "dependencies": {
     "next": "latest",
@@ -16,12 +19,17 @@
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "@types/node": "20.5.9",
     "@types/react": "18.2.21",
     "concurrently": "^8.2.1",
     "eslint": "^8.48.0",
     "eslint-config-next": "^13.4.19",
     "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1",
+    "pinst": "^3.0.0",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
   }
