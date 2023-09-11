@@ -689,6 +689,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ag-grid-community@npm:^30.1.0":
+  version: 30.1.0
+  resolution: "ag-grid-community@npm:30.1.0"
+  checksum: 98dd91520d077e29378f67d4f2575a45139fb1a136492021ba659a7f6c1e539ee892db3e0eeaf553034589d471492109ea3aa251cf0d4b66dc3b7f9a4c36cf97
+  languageName: node
+  linkType: hard
+
+"ag-grid-enterprise@npm:^30.1.0":
+  version: 30.1.0
+  resolution: "ag-grid-enterprise@npm:30.1.0"
+  checksum: bb3463f1d6a80d7553c20d6d547826ba99453a61b55b00c2f88cb5ada8f0cbdc736ef5f45ea47330f0503227e149806e50f8b8e04538c3dd36577e32a321ee46
+  languageName: node
+  linkType: hard
+
+"ag-grid-react@npm:^30.1.0":
+  version: 30.1.0
+  resolution: "ag-grid-react@npm:30.1.0"
+  dependencies:
+    prop-types: ^15.8.1
+  peerDependencies:
+    ag-grid-community: ~30.1.0
+    react: ^16.3.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.3.0 || ^17.0.0 || ^18.0.0
+  checksum: 285950b66a9c6c440f549379f2d239e9adf75aebb1b6d193ba0faa456d8f003d3598102364948b8b9c6bb3f59fd252553c7991442260ee275ff725e4cdd0e3d6
+  languageName: node
+  linkType: hard
+
 "ahocorasick@npm:1.0.2":
   version: 1.0.2
   resolution: "ahocorasick@npm:1.0.2"
@@ -3249,6 +3276,9 @@ __metadata:
     "@types/node": 20.5.9
     "@types/react": 18.2.21
     "@vanilla-extract/css": ^1.13.0
+    ag-grid-community: ^30.1.0
+    ag-grid-enterprise: ^30.1.0
+    ag-grid-react: ^30.1.0
     concurrently: ^8.2.1
     eslint: ^8.48.0
     eslint-config-next: ^13.4.19

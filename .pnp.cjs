@@ -33,6 +33,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:20.5.9"],\
             ["@types/react", "npm:18.2.21"],\
             ["@vanilla-extract/css", "npm:1.13.0"],\
+            ["ag-grid-community", "npm:30.1.0"],\
+            ["ag-grid-enterprise", "npm:30.1.0"],\
+            ["ag-grid-react", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:30.1.0"],\
             ["concurrently", "npm:8.2.1"],\
             ["eslint", "npm:8.48.0"],\
             ["eslint-config-next", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:13.4.19"],\
@@ -881,6 +884,55 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/acorn-walk-npm-8.2.0-2f2cac3177-1715e76c01.zip/node_modules/acorn-walk/",\
           "packageDependencies": [\
             ["acorn-walk", "npm:8.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["ag-grid-community", [\
+        ["npm:30.1.0", {\
+          "packageLocation": "./.yarn/cache/ag-grid-community-npm-30.1.0-8704bc7a74-98dd91520d.zip/node_modules/ag-grid-community/",\
+          "packageDependencies": [\
+            ["ag-grid-community", "npm:30.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["ag-grid-enterprise", [\
+        ["npm:30.1.0", {\
+          "packageLocation": "./.yarn/cache/ag-grid-enterprise-npm-30.1.0-a8d11c5d4a-bb3463f1d6.zip/node_modules/ag-grid-enterprise/",\
+          "packageDependencies": [\
+            ["ag-grid-enterprise", "npm:30.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["ag-grid-react", [\
+        ["npm:30.1.0", {\
+          "packageLocation": "./.yarn/cache/ag-grid-react-npm-30.1.0-e2f924e5f8-285950b66a.zip/node_modules/ag-grid-react/",\
+          "packageDependencies": [\
+            ["ag-grid-react", "npm:30.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:30.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/ag-grid-react-virtual-77f9a2b777/0/cache/ag-grid-react-npm-30.1.0-e2f924e5f8-285950b66a.zip/node_modules/ag-grid-react/",\
+          "packageDependencies": [\
+            ["ag-grid-react", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:30.1.0"],\
+            ["@types/ag-grid-community", null],\
+            ["@types/react", "npm:18.2.21"],\
+            ["@types/react-dom", null],\
+            ["ag-grid-community", "npm:30.1.0"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/ag-grid-community",\
+            "@types/react-dom",\
+            "@types/react",\
+            "ag-grid-community",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3972,6 +4024,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:20.5.9"],\
             ["@types/react", "npm:18.2.21"],\
             ["@vanilla-extract/css", "npm:1.13.0"],\
+            ["ag-grid-community", "npm:30.1.0"],\
+            ["ag-grid-enterprise", "npm:30.1.0"],\
+            ["ag-grid-react", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:30.1.0"],\
             ["concurrently", "npm:8.2.1"],\
             ["eslint", "npm:8.48.0"],\
             ["eslint-config-next", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:13.4.19"],\

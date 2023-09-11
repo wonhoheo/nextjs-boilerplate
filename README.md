@@ -1,4 +1,4 @@
-# nextjs-boilerplate
+# nextjs-playground
 
 ## 환경 구성
 
