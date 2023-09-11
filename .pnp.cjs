@@ -38,6 +38,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:13.4.19"],\
             ["eslint-config-prettier", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:9.0.0"],\
             ["husky", "npm:8.0.3"],\
+            ["immer", "npm:10.0.2"],\
+            ["jotai", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:2.4.2"],\
+            ["jotai-immer", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:0.2.0"],\
             ["lint-staged", "npm:14.0.1"],\
             ["next", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:13.4.19"],\
             ["pinst", "npm:3.0.0"],\
@@ -2886,6 +2889,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["immer", [\
+        ["npm:10.0.2", {\
+          "packageLocation": "./.yarn/cache/immer-npm-10.0.2-c5dc19bd45-525a3b1421.zip/node_modules/immer/",\
+          "packageDependencies": [\
+            ["immer", "npm:10.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["import-fresh", [\
         ["npm:3.3.0", {\
           "packageLocation": "./.yarn/cache/import-fresh-npm-3.3.0-3e34265ca9-2cacfad06e.zip/node_modules/import-fresh/",\
@@ -3299,6 +3311,58 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["get-intrinsic", "npm:1.2.1"],\
             ["has-symbols", "npm:1.0.3"],\
             ["reflect.getprototypeof", "npm:1.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["jotai", [\
+        ["npm:2.4.2", {\
+          "packageLocation": "./.yarn/cache/jotai-npm-2.4.2-17665abf63-b0f77afa69.zip/node_modules/jotai/",\
+          "packageDependencies": [\
+            ["jotai", "npm:2.4.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:2.4.2", {\
+          "packageLocation": "./.yarn/__virtual__/jotai-virtual-8e60b6bd86/0/cache/jotai-npm-2.4.2-17665abf63-b0f77afa69.zip/node_modules/jotai/",\
+          "packageDependencies": [\
+            ["jotai", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:2.4.2"],\
+            ["@types/react", "npm:18.2.21"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["jotai-immer", [\
+        ["npm:0.2.0", {\
+          "packageLocation": "./.yarn/cache/jotai-immer-npm-0.2.0-9e1645f278-6860557e0e.zip/node_modules/jotai-immer/",\
+          "packageDependencies": [\
+            ["jotai-immer", "npm:0.2.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:0.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/jotai-immer-virtual-c333d00207/0/cache/jotai-immer-npm-0.2.0-9e1645f278-6860557e0e.zip/node_modules/jotai-immer/",\
+          "packageDependencies": [\
+            ["jotai-immer", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:0.2.0"],\
+            ["@types/immer", null],\
+            ["@types/jotai", null],\
+            ["@types/react", "npm:18.2.21"],\
+            ["immer", "npm:10.0.2"],\
+            ["jotai", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:2.4.2"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/immer",\
+            "@types/jotai",\
+            "@types/react",\
+            "immer",\
+            "jotai",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3913,6 +3977,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:13.4.19"],\
             ["eslint-config-prettier", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:9.0.0"],\
             ["husky", "npm:8.0.3"],\
+            ["immer", "npm:10.0.2"],\
+            ["jotai", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:2.4.2"],\
+            ["jotai-immer", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:0.2.0"],\
             ["lint-staged", "npm:14.0.1"],\
             ["next", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:13.4.19"],\
             ["pinst", "npm:3.0.0"],\
