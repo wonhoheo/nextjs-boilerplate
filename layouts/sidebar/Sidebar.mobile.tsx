@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useAtom } from "jotai";
 import { motion, AnimatePresence } from "framer-motion";
+import { useEffect, useRef } from "react";
 
 import {
   sideBarContainer,
@@ -17,10 +18,20 @@ import Portal from "components/Portal";
 
 const SidebarMobile = () => {
   const [isOpen, setIsOpen] = useAtom(isSidebarOpenAtom);
+  const sideBarRef = useRef<HTMLDivElement>(null);
 
   const handleSideBarVisible = (visible: boolean) => () => {
     setIsOpen(visible);
   };
+
+  useEffect(() => {
+    const onClickOutside = (event: MouseEvent) => {
+      if (!sideBarRef.current?.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+    window.addEventListener("click", onClickOutside);
+  }, [setIsOpen]);
 
   return (
     <>
@@ -28,6 +39,7 @@ const SidebarMobile = () => {
         {isOpen && (
           <Portal>
             <motion.div
+              ref={sideBarRef}
               initial={{ transform: "translateX(-260px)" }}
               animate={{ transform: "none" }}
               transition={{ ease: "easeInOut", duration: "0.3" }}
