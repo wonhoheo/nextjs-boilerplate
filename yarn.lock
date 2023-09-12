@@ -1166,7 +1166,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.21":
+"@types/react-dom@npm:^18.2.7":
+  version: 18.2.7
+  resolution: "@types/react-dom@npm:18.2.7"
+  dependencies:
+    "@types/react": "*"
+  checksum: e02ea908289a7ad26053308248d2b87f6aeafd73d0e2de2a3d435947bcea0422599016ffd1c3e38ff36c42f5e1c87c7417f05b0a157e48649e4a02f21727d54f
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:*, @types/react@npm:18.2.21":
   version: 18.2.21
   resolution: "@types/react@npm:18.2.21"
   dependencies:
@@ -4730,6 +4739,7 @@ __metadata:
     "@commitlint/config-conventional": ^17.7.0
     "@types/node": 20.5.9
     "@types/react": 18.2.21
+    "@types/react-dom": ^18.2.7
     "@vanilla-extract/css": ^1.13.0
     "@vanilla-extract/next-plugin": ^2.3.0
     ag-grid-community: ^30.1.0

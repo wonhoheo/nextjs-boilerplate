@@ -32,6 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:17.7.0"],\
             ["@types/node", "npm:20.5.9"],\
             ["@types/react", "npm:18.2.21"],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["@vanilla-extract/css", "npm:1.13.0"],\
             ["@vanilla-extract/next-plugin", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:2.3.0"],\
             ["ag-grid-community", "npm:30.1.0"],\
@@ -1443,6 +1444,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/react-dom", [\
+        ["npm:18.2.7", {\
+          "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.2.7-a20ba684a5-e02ea90828.zip/node_modules/@types/react-dom/",\
+          "packageDependencies": [\
+            ["@types/react-dom", "npm:18.2.7"],\
+            ["@types/react", "npm:18.2.21"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/scheduler", [\
         ["npm:0.16.3", {\
           "packageLocation": "./.yarn/cache/@types-scheduler-npm-0.16.3-887bfc0086-2b0aec39c2.zip/node_modules/@types/scheduler/",\
@@ -1746,7 +1757,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ag-grid-react", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:30.1.0"],\
             ["@types/ag-grid-community", null],\
             ["@types/react", "npm:18.2.21"],\
-            ["@types/react-dom", null],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["ag-grid-community", "npm:30.1.0"],\
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
@@ -3720,7 +3731,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["framer-motion", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:10.16.4"],\
             ["@emotion/is-prop-valid", "npm:0.8.8"],\
             ["@types/react", "npm:18.2.21"],\
-            ["@types/react-dom", null],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:18.2.0"],\
             ["tslib", "npm:2.6.2"]\
@@ -5543,7 +5554,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/helpers", "npm:0.5.1"],\
             ["@types/opentelemetry__api", null],\
             ["@types/react", "npm:18.2.21"],\
-            ["@types/react-dom", null],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["@types/sass", null],\
             ["busboy", "npm:1.6.0"],\
             ["caniuse-lite", "npm:1.0.30001528"],\
@@ -5577,6 +5588,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:17.7.0"],\
             ["@types/node", "npm:20.5.9"],\
             ["@types/react", "npm:18.2.21"],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["@vanilla-extract/css", "npm:1.13.0"],\
             ["@vanilla-extract/next-plugin", "virtual:ed9d19152b84e8967ae21e6b8e08052d1898ac03af617209a960b0873011434617cadfaa6f33056b10fd3f03178209d0e7af27e3694bb550237ca74866ec1ef2#npm:2.3.0"],\
             ["ag-grid-community", "npm:30.1.0"],\
