@@ -12,4 +12,6 @@ export const contentContainer = style({
   minHeight: "100vh",
   flexDirection: "column",
   WebkitBoxFlex: "1",
+  paddingLeft: "1.5rem",
+  paddingRight: "1.5rem",
 });

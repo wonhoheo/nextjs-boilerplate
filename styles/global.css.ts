@@ -5,3 +5,7 @@ globalStyle("*, *::before, *::after", {
   margin: 0,
   padding: 0,
 });
+
+globalStyle("body", {
+  backgroundColor: "#F8F7FA",
+});

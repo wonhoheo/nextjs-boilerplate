@@ -10,7 +10,9 @@ const Layout = ({ children }: Props) => {
   return (
     <div className={layoutContainer}>
       <SideBar />
-      <div className={contentContainer}>{children}</div>
+      <div className={contentContainer}>
+        <main>{children}</main>
+      </div>
     </div>
   );
 };
